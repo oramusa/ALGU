@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%; /* Full width */
+  background-color: #333; /* Dark background color */
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Fix the navbar at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it is above other content */
+}
+.navbar-links {
+  display: flex; /* Use flexbox to arrange links horizontally */
+  gap: 2rem; /* Add gap between the links */
+}
+
+.navbar-links a {
+  color: white; /* Change font color to white */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.navbar-links a:hover {
+  color: #ccc; /* Change color on hover */
+}
+
+body {
+  margin: 0;
+}
+  
+  

@@ -1,0 +1,42 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure body has no margin and no background image */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Ensure body height is 100vh */
+    background: none; /* Remove any background image */
+  }
+  
+  /* Style the solutions container */
+  .solutions-container {
+    position: absolute; /* Make it cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items */
+    color: white; /* Text color for visibility */
+    text-align: center; /* Center text */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+ 
+}
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    max-width: 600px; /* Optional: limit the width of the paragraph for better readability */
+  }
+  
